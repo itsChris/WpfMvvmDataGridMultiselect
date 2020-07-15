@@ -16,7 +16,6 @@ namespace WpfMvvmDataGridMultiselect
                 OnPropertyChanged("PeopleList");
             }
         }
-
         public PersonViewModel() : base()
         {
             PeopleList = new ObservableCollection<Person>();

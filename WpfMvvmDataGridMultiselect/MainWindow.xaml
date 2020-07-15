@@ -21,11 +21,11 @@
 
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name"
-                                    Binding="{Binding Path=Name,UpdateSourceTrigger=PropertyChanged}" />
+                                    Binding="{Binding Path=Name}" />
                 <DataGridTextColumn Header="Age"
-                                    Binding="{Binding Path=Birthdate, UpdateSourceTrigger=PropertyChanged}" />
+                                    Binding="{Binding Path=Birthdate}" />
                 <DataGridTextColumn Header="Date of Birth"
-                                    Binding="{Binding Path=Zip,UpdateSourceTrigger=PropertyChanged}" />
+                                    Binding="{Binding Path=Zip}" />
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
