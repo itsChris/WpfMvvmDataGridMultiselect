@@ -54,7 +54,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ViewModelBase.cs" />
+    <Compile Include="AttachedProperties\MultiSelectBehaviour.cs" />
+    <Compile Include="AttachedProperties\SynchronizationManager.cs" />
+    <Compile Include="AttachedProperties\TwoListSynchronizer.cs" />
+    <Compile Include="Converters\IListItemConverter.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,8 +73,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonViewModel.cs" />
+    <Compile Include="Model\Person.cs" />
+    <Compile Include="ViewModel\PersonViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -95,6 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

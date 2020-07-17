@@ -1,0 +1,1 @@
+﻿Thanks to Samuel Jack for his implementation https://github.com/samueldjack/SelectedItemsBindingDemo
