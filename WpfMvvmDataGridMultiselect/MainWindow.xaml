@@ -13,7 +13,7 @@
         <local:PersonViewModel></local:PersonViewModel>
     </Window.DataContext>
     <Grid>
-        <DataGrid CanUserAddRows="True"
+        <DataGrid CanUserAddRows="True" 
                   ItemsSource="{Binding PeopleList}"
                   AutoGenerateColumns="False"
                   CanUserDeleteRows="True"
